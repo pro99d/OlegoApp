@@ -1,6 +1,10 @@
 [package]
 name = "OlegoApp"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+winit = "0.30"
+wgpu = "23"
+pollster = "0.4"
+env_logger = "0.11"
